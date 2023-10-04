@@ -182,7 +182,7 @@ public class Model extends Observable {
         if (changed) {
             setChanged();
         }
-        return true;
+        return changed;
     }
 
 
