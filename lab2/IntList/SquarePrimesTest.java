@@ -30,7 +30,7 @@ public class SquarePrimesTest {
     public void testSquarePrimesLarge() {
         IntList lst = IntList.of(431, 432, 433, 434, 435);
         boolean changed = IntListExercises.squarePrimes(lst);
-        assertEquals("185761 -> 432 -> 433 -> 434 -> 435", lst.toString());
+        assertEquals("185761 -> 432 -> 187489 -> 434 -> 435", lst.toString());
         assertTrue(changed);
     }
 }
