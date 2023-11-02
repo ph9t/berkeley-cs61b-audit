@@ -32,17 +32,15 @@ public class TimeAList {
         while (n <= 10000000) {
             Ns.addLast(n);
 
-            Stopwatch sw = new Stopwatch();
-            int count = 0;
-
+            int i = 0;
             AList<Integer> AListTest = new AList<>();
+            Stopwatch sw = new Stopwatch();
 
-            for (int i = 0; i < n; i++) {
+            for (; i < n; i++) {
                 AListTest.addLast(69);
-                count = count + 1;
             }
 
-            OpCounts.addLast(count);
+            OpCounts.addLast(i);
             times.addLast(sw.elapsedTime());
 
             n = n * 2;
