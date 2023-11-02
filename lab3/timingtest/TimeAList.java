@@ -1,6 +1,5 @@
 package timingtest;
 import edu.princeton.cs.algs4.Stopwatch;
-import sun.tools.tree.DoubleExpression;
 
 /**
  * Created by hug.

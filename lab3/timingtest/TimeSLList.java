@@ -1,9 +1,5 @@
 package timingtest;
 import edu.princeton.cs.algs4.Stopwatch;
-import org.checkerframework.checker.units.qual.A;
-import sun.tools.tree.DoubleExpression;
-
-import javax.naming.ldap.StartTlsRequest;
 
 /**
  * Created by hug.
